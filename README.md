@@ -4,12 +4,12 @@ Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905
 # Installation
 Installation steps tested for Windows 10 64-bit and Python 3.5
 
-### 1. Download whole-brain_DeepDenoising repository
+### 1. Download repository
 Open Git Bash terminal, navigate to desired location and clone repository using `git clone https://github.com/shiveshc/SinGAN_easy_tensorflow.git`.
 
 Or click on `Code` button on top right corner and `Download ZIP`.
 
-### 2. Setting up venv and installing libraries
+### 2. Set up venv and instal libraries
 Open command line terminal as administrator and navigate to cloned repository path using `cd .\SinGAN_easy_tensorflow`.
 
 Next run following commands - 
@@ -30,4 +30,5 @@ Common installation errors -
 
 
 # Usage
-`python train.py /data/balloons.jpg`
+To train on `balloons.png` in `data folder` run - \
+`python train.py /data/balloons.png`
