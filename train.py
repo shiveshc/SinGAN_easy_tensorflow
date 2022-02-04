@@ -89,14 +89,15 @@ def parse_argument(arg_list):
         print('error - input required, see description below')
 
     parser = argparse.ArgumentParser(prog= 'train.py', description='SinGan tensorflow implementation')
+    parser.add_argument('data', help= 'data path')
     parser.add_argument('run', type= int, help= 'run number to distinguish different runs')
     args = parser.parse_args(arg_list)
-    return args.run
+    return args.data, args.run
 
 if __name__ == '__main__':
-    run = parse_argument(sys.argv[1:])
+    data, run = parse_argument(sys.argv[1:])
 
-    img = load_img('D:/Shivesh/SinGAN/data/colusseum.png')
+    img = load_img(data)
     # img = load_img('/storage/coda1/p-hl94/0/schaudhary9/testflight_data/SinGAN/data/colusseum.png')
     scales = 6
 
