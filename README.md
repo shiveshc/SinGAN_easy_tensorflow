@@ -1,6 +1,11 @@
 # SinGAN_easy_tensorflow
 Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905.01164.pdf). This implementation may be easier to understand for beginners (one single file for training)
 
+# Results
+| Image | Random Samples |
+|------------|-------|
+| <img src = "data/colusseum.png" width=100% align="center"> | <img src = "data/colusseum.png" width=100% align="center"> |
+
 # Installation
 Installation steps tested for Windows 10 64-bit and Python 3.5
 
