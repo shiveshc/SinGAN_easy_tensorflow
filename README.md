@@ -2,8 +2,8 @@
 Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905.01164.pdf). This implementation may be easier to understand for beginners (one single file for training)
 
 # Results
-| Image | Random Samples |
-|------------|-------|
+| Image | Random Sample 1 | Random Sample 2 | Random Sample 3 |
+|------------|-------|-------|-------|
 | <img src = "data/colusseum.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_1.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_2.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_7.png" width=100% align="center"> |
 
 # Installation
