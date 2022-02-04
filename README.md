@@ -4,7 +4,7 @@ Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905
 # Results
 | Image | Random Samples |
 |------------|-------|
-| <img src = "data/colusseum.png" width=100% align="center"> | <img src = "data/colusseum.png" width=100% align="center"> |
+| <img src = "data/colusseum.png" width=100% align="center"> | <img src = "Results/colusseum/scale_0_fake_1.png" width=100% align="center"> | <img src = "Results/colusseum/scale_0_fake_2.png" width=100% align="center"> | <img src = "Results/colusseum/scale_0_fake_7.png" width=100% align="center"> |
 
 # Installation
 Installation steps tested for Windows 10 64-bit and Python 3.5
