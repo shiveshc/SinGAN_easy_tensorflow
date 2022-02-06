@@ -12,7 +12,7 @@ Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905
 |------------|-------|-------|-------|
 | <img src = "data/colusseum.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_1.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_2.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_7.png" width=100% align="center"> |
 | <img src = "data/balloons.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_8.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_3.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_1.png" width=100% align="center"> |
-| <img src = "data/rock.jpg" width=100% align="center"> | <img src = "Results/rock/scale_0_fake_8.png" width=100% align="center"> | <img src = "Results/rock/scale_0_fake_3.png" width=100% align="center"> | <img src = "Results/rock/scale_0_fake_1.png" width=100% align="center"> |
+| <img src = "data/rock.jpg" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_8.png" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_3.png" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_1.png" width=100% align="center"> |
 
 # Installation
 Installation steps tested for Windows 10 64-bit and Python 3.5
