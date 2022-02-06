@@ -3,7 +3,7 @@ Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905
 
 # Contents
 1. [Results](#results)
-2. [Modification from original paper](#additional-system-requirements)
+2. [Modification from original paper](#modification-from-original-paper)
 3. [Installation](#installation)
 4. [Usage](#usage)
 
@@ -13,6 +13,9 @@ Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905
 | <img src = "data/colusseum.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_1.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_2.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_7.png" width=100% align="center"> |
 | <img src = "data/balloons.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_8.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_3.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_1.png" width=100% align="center"> |
 | <img src = "data/rock.jpg" width=70% align="center"> | <img src = "Results/rock/scale_3_fake_2.png" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_5.png" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_7.png" width=100% align="center"> |
+
+# Modification from original paper
+In the paper, to ensure the original image exists in the solution space of generator, noise map is kept as (z^*_n)
 
 # Installation
 Installation steps tested for Windows 10 64-bit and Python 3.5
