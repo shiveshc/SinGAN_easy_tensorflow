@@ -89,20 +89,23 @@ def parse_argument(arg_list):
         print('error - input required, see description below')
 
     parser = argparse.ArgumentParser(prog= 'train.py', description='SinGan tensorflow implementation')
-    parser.add_argument('data', help= 'data path')
+    parser.add_argument('data', help='data_path')
+    parser.add_argument('out', help= 'output path')
+    parser.add_argument('-scales', type=int, help='number of scales to train on', default=6)
+    parser.add_argument('-iters', type=int, help='number of training iterations for each scale', default=75)
     parser.add_argument('run', type= int, help= 'run number to distinguish different runs')
     args = parser.parse_args(arg_list)
-    return args.data, args.run
+    return args.data, args.out, args.scales, args.iters, args.run
 
 if __name__ == '__main__':
-    data, run = parse_argument(sys.argv[1:])
+    data, out_path, scales, iters, run = parse_argument(sys.argv[1:])
 
     img = load_img(data)
     # img = load_img('/storage/coda1/p-hl94/0/schaudhary9/testflight_data/SinGAN/data/colusseum.png')
-    scales = 6
+    scales = scales
 
     lr = 0.0005
-    training_iters = 75
+    training_iters = iters
 
     H, W, C = img.shape
 
@@ -176,7 +179,7 @@ if __name__ == '__main__':
     init = tf.global_variables_initializer()
 
     # make folder where all results will be saved
-    results_dir = 'D:/Shivesh/SinGAN/Results/SinGan_train_' + str(run)
+    results_dir = out_path + '/SinGan_train_' + str(run)
     # results_dir = '/storage/scratch1/0/schaudhary9/SinGAN/SinGan_train_' + str(run)
     if os.path.isdir(results_dir):
         shutil.rmtree(results_dir)
