@@ -13,10 +13,12 @@ Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905
 | <img src = "data/colusseum.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_1.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_2.png" width=100% align="center"> | <img src = "Results/colusseum/new/scale_0_fake_7.png" width=100% align="center"> |
 | <img src = "data/balloons.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_8.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_3.png" width=100% align="center"> | <img src = "Results/balloons/scale_0_fake_1.png" width=100% align="center"> |
 
+| Image | Random Sample 1 | Random Sample 2 | Random Sample 3 |
+|------------|-------|-------|-------|
 | <img src = "data/rock.jpg" width=70% align="center"> | <img src = "Results/rock/scale_3_fake_2.png" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_5.png" width=100% align="center"> | <img src = "Results/rock/scale_3_fake_7.png" width=100% align="center"> |
 
 # Modification from original paper
-In the paper, to ensure the original image exists in the solution space of generator, noise map is kept as (z<sup>*</sup>_n)
+In the paper, to ensure the original image exists in the solution space of generator, noise map is kept as (z<sup>*</sup><sub>N</sub>, 0, 0, 0, ...) from coarsest scale to finest scale. Here z<sup>*</sup><sub>N</sub> is kept fixed while training. Further random samples are generated from noise map (z<sub>N</sub>, z<sub>N-1</sub>, z<sub>N-2</sub>, ...) etc.
 
 # Installation
 Installation steps tested for Windows 10 64-bit and Python 3.5
