@@ -37,4 +37,4 @@ Common installation errors -
 # Usage
 To train on `balloons.png` in `data folder` run - \
 1. `env\Scripts\activate.bat`\
-2. `python train.py /data/balloons.png`
+2. `python train.py /data/balloons.png output_path -scales 6 -iters 75 1`
