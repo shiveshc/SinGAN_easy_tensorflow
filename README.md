@@ -1,6 +1,12 @@
 # SinGAN_easy_tensorflow
 Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905.01164.pdf). This implementation may be easier to understand for beginners (one single file for training)
 
+# Contents
+1. [Results](#results)
+2. [Modification from original paper](#additional-system-requirements)
+3. [Installation](#installation)
+4. [Usage](#usage)
+
 # Results
 | Image | Random Sample 1 | Random Sample 2 | Random Sample 3 |
 |------------|-------|-------|-------|
