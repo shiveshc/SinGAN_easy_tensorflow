@@ -1,7 +1,7 @@
 # SinGAN_easy_tensorflow
 Native TensorFlow API implementation of SinGAN paper (https://arxiv.org/pdf/1905.01164.pdf).
 
-__The goal of this implementation is instructional__. I hope it is useful for people who do not have deep background in Pytorch or Keras. This implementation defines model graph using native TensorFlow API (one single file) thus may be easier to understand the method for beginners.
+__The goal of this implementation is instructional__. I hope it is useful for people who do not have deep background in Pytorch or Keras. This implementation defines model graph using native TensorFlow (version lte 2.0), thus this may be easier to understand the method for beginners.
 
 # Contents
 1. [Results](#results)
